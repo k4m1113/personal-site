@@ -1,17 +1,7 @@
-React Router Tutorial
-=====================
-
-Quick lessons for getting up-to-speed with React Router.
-
-See [Lesson 1 - Setting Up](/lessons/01-setting-up/) to get started.
-
-Each lesson is a fully runnable app with all code from the previous lesson, so you can `cd lessons/<lesson-folder>`, npm install,
-and then run the appropriate NPM scripts for each lesson from within the lesson folder.
-
-Missing stuff that will come eventually, hopefully ... maybe.
-
-1. an app that isn't completely pointless
-- egghead.io videos
-- code splitting
-- location state
-- data integration
+<h2>Personal Landing Page for Kamille Delgardo</h2>
+<a href="https://www.linkedin.com/in/kamilledelgardo">Hire Kamille</a>
+<a href="https://twitter.com/KamilleAppeal">Follow Kamille</a>
+<a href="https://twitter.com/KamilleAppeal">Follow Kamille</a>
+<hr>
+<p>Kamille's first React App (adapted from <a href="https://github.com/reactjs/react-router-tutorial">this amazing tutorial</a>)</p>
+<p>To be deployed on Heroku</p>
