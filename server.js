@@ -12,6 +12,8 @@ app.use(compression())
 
 // serve our static stuff like index.css
 app.use(express.static(path.join(__dirname, 'public'), {index: false}))
+app.use(express.static('icons'))
+
 
 // send all requests to index.html so browserHistory works
 app.get('*', (req, res) => {
@@ -32,13 +34,26 @@ app.get('*', (req, res) => {
 
 function renderPage(appHtml) {
   return `
-    <!doctype html public="storage">
+    <!DOCTYPE HTML public="storage">
     <html>
-    <meta charset=utf-8/>
-    <title>My First React Router App</title>
-    <link rel=stylesheet href=/index.css>
-    <div id=app>${appHtml}</div>
+    <head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+      <title>Kamille Delgardo</title>
+
+      <link rel=stylesheet href="/index.css">
+      <link rel="icon" src="/public/icons/erb" />
+      <link rel="shortcut icon" src="public/icons/K.png" />
+    </head>
+
+    <body>
+      <div id=app></div>
+    </body>
     <script src="/bundle.js"></script>
+    </html>
    `
 }
 
