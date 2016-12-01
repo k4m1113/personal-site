@@ -10,7 +10,7 @@ export default React.createClass({
     return (
       <div>
         <h2>{project.name}</h2>
-        <p>Type: {project.type} ► <a href={project.deployment}>See it Live</a></p>
+        <p>Type: {project.type} ☞ <a href={project.deployment}>See it Live</a></p>
         <p>{project.description}</p>
         <p>Technologies Used:</p>
         <ul className="tech-icon">{
