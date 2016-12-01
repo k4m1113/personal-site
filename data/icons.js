@@ -1,96 +1,114 @@
 "use strict";
 
-const icons = {
-  'ruby': {
+const icons = [
+  {
+    'id': 'ruby',
     'name': 'Ruby',
     'url': 'https://www.ruby-lang.org/en/',
     'icon': 'public/icons/ruby.png',
   },
-  'api': {
+  {
+    'id': 'api',
     'name': 'Application Programming Interface',
     'url': '',
     'icon': 'public/icons/api.png',
   },
-  'html': {
+  {
+    'id': 'html',
     'name': 'HyperText Markup Language',
     'url': 'https://www.w3.org/TR/html5/',
     'icon': 'public/icons/html.png',
   },
-  'rails': {
+  {
+    'id': 'rails',
     'name': 'Ruby on Rails',
     'url': 'http://rubyonrails.org/',
     'icon': 'public/icons/rails.png',
   },
-  'postgresql': {
+  {
+    'id': 'postgresql',
     'name': 'PostgreSQL',
     'url': 'https://www.postgresql.org/',
     'icon': 'public/icons/postgresql.png'
   },
-  'javascript': {
+  {
+    'id': 'javascript',
     'name': 'Javascript',
     'url': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     'icon': 'public/icons/javascript.png'
   },
-  'bootstrap': {
+  {
+    'id': 'bootstrap',
     'name': 'Bootstrap',
     'url': 'https://getbootstrap.com/',
     'icon': 'public/icons/bootstrap.png'
   },
-  'foundation': {
+  {
+    'id': 'foundation',
     'name': 'Foundation',
     'url': 'http://foundation.zurb.com/',
     'icon': 'public/icons/foundation.png'
   },
-  'xml': {
+  {
+    'id': 'xml',
     'name': 'Extensible Markup Language',
     'url': 'https://www.w3.org/XML/',
     'icon': 'public/icons/xml.png'
   },
-  'pair-programming': {
+  {
+    'id': 'pair-programming',
     'name': 'Pair Programming',
     'url': '',
     'icon': 'public/icons/pair.png'
   },
-  'latin': {
+  {
+    'id': 'latin',
     'name': 'Latin',
     'url': 'https://la.wikipedia.org/wiki/Vicipaedia:Pagina_prima',
     'icon': 'public/icons/latin.png'
   },
-  'erb': {
+  {
+    'id': 'erb',
     'name': 'Embedded Ruby Templating',
     'url': 'http://ruby-doc.org/stdlib-2.3.3/libdoc/erb/rdoc/ERB.html',
     'icon': 'public/icons/erb.png'
   },
-  'authentication': {
+  {
+    'id': 'authentication',
     'name': 'User Authentication',
     'url': '',
     'icon': 'public/icons/authentication.png'
   },
-  'authorization': {
+  {
+    'id': 'authorization',
     'name': 'User Authorization',
     'url': '',
     'icon': 'public/icons/authorization.png'
   },
-  'test-driven-development': {
+  {
+    'id': 'test-driven-development',
     'name': 'Test-Driven Development',
     'url': '',
     'icon': 'public/icons/tdd.png'
   },
-  'ajax': {
+  {
+    'id': 'ajax',
     'name': 'Asynchronous Javascript and XML',
     'url': 'https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started',
     'icon': 'public/icons/ajax.png'
   },
-  'rating': {
+  {
+    'id': 'rating',
     'name': 'Rating',
     'url': '',
     'icon': 'public/icons/rating.png'
   },
-  'jquery': {
+  {
+    'id': 'jquery',
     'name': 'jQuery',
     'url': 'https://jquery.com/',
     'icon': 'public/icons/jquery.png'
   }
-};
+];
 
 export default icons;

@@ -3,7 +3,10 @@ import React from 'react'
 export default React.createClass({
   render() {
     return (
-      <div>Education</div>
+      <div>
+      <h2>Education</h2>
+
+      </div>
     )
   }
 })

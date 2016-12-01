@@ -21,7 +21,7 @@
 }
 
 
-.nav > .active {
+.nav, .active {
   background-color: var(--color-secondary-1-2);
   color: white;
 }
@@ -51,4 +51,24 @@
 
 .nav > li a:hover {
     background-color: var(--color-primary-3);
+}
+
+.tech-icon {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+}
+
+.tech-icon > li {
+  float: left;
+}
+
+.tech-icon > li img {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  max-width: 50px;
+  max-height: 50px;
 }

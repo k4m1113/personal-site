@@ -5,8 +5,6 @@ export default React.createClass({
   render() {
     return (
       <div>
-      <link href='/public/icons/javascript.png'/>
-
         <h1>Kamille Delgardo</h1>
         <ul className="nav">
           <li><NavLink to="/" onlyActiveOnIndex>Home</NavLink></li>
