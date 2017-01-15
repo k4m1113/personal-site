@@ -1,4 +1,5 @@
 var webpack = require('webpack')
+var path = require( 'path' );
 
 module.exports = {
   entry: './index.js',
@@ -16,7 +17,7 @@ module.exports = {
   ] : [],
 
   resolve: {
-    root: path.resolve('./src'),
+    modulesDirectories: ['node_modules', './src'],
     extensions: ['', '.js', '.jsx']
   },
 
