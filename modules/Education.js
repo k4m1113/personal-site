@@ -1,15 +1,20 @@
 import React from 'react'
-import School from './School'
-import schools from '../data/schools'
+import NavLink from './NavLink'
 
 export default React.createClass({
   render() {
     return (
       <div>
-      <h2>Education</h2>
-      {schools.map(keyword =>
-        <School id={keyword} {...keyword} />
-      )}
+      <hr />
+      <ul className="sub-nav">
+        <li><NavLink to="/education/cal">UC Berkeley</NavLink></li>
+        |
+        <li><NavLink to="/education/butte">Butte College</NavLink></li>
+        |
+        <li><NavLink to="/education/chico">CSU Chico</NavLink></li>
+      </ul>
+      <hr />
+      {this.props.children}
       </div>
     )
   }

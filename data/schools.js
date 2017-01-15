@@ -28,11 +28,11 @@ const schools = [
     'name': 'California State University, Chico',
     'location': 'Chico, CA',
     'url': 'https://www.csuchico.edu',
-    'degree': 'none',
-    'subjects': ['Calculus', 'German', 'Womens Studies'],
+    'degree': 'no degree',
+    'subjects': ['Calculus', 'German', "Women's Studies"],
     'attendanceDates': 'January 2009 to July 2011',
-    'honors': ['Phi Theta Kappa Honors Society', 'Tutor in Economics'],
-    'summary': "I started studying at CSU Chico while concurrently enrolled as a junior in high school. I continued studying various subjects there off and on through high school and into community college.",
+    'honors': ['High School Scholars program'],
+    'summary': "I started studying at CSU Chico while concurrently enrolled as a junior in high school. I continued studying various subjects there off and on as-needed through high school and into community college.",
   },
 ]
 

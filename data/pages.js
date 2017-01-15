@@ -12,6 +12,11 @@ const pages = [
     'url': "/projects"
   },
   {
+    'id':'education',
+    'name': 'Education',
+    'url': "/education"
+  }
+  {
     'id': 'interests',
     'name': 'Interests',
     'url': "/interests"

@@ -8,10 +8,9 @@ export default React.createClass({
     return (
       <div>
         <h2><a href={school.url}>{school.name}</a></h2>
-        {school.location} <br />
-        {school.attendanceDates} <br />
-        {school.degree} <br />
-        Studied: <br />
+        <i>{school.honors.join(", ")}</i><br />
+        <p>{school.location} ✼ {school.attendanceDates} ✼ {school.degree} </p>
+        <b>Studied:</b> {school.subjects.join(", ")}<br />
         {school.summary} <br />
       </div>
     )

@@ -7,11 +7,14 @@ export default React.createClass({
     const github = "https://www.github.com/Kamilleski";
     return (
       <div>
+        <br />
+        <img src="https://lh3.googleusercontent.com/-5Kvm7cKHUUJqBga91zAQnMj1Vyu-4kPdbZ-AQC47amD=w981-h1085-no" className="portrait" alt="portrait of Kamille Delgardo"/>
         <h1>Kamille Delgardo</h1>
         <ul className="header-nav">
-          <li><a href={linkedin}> <img src="" alt="" /></a></li>|
-          <li><a href={github} /></li>|
-          <li><a href={instagram} /></li>
+          <li><a height="32px" href="mailto:kamille@delgardo.co"><img src="http://downloadicons.net/sites/default/files/encrypted-message-icon-82764.png" height="32px" alt="securely email Kamille Delgardo" /></a></li>
+          <li><a href={linkedin}><img src="https://github.com/Kamilleski/personal-site/blob/master/public/icons/In-Black-66px-R.png?raw=true" height="32px" alt="Kamille Delgardo LinkedIn" /></a></li>
+          <li><a href={github}><img src="https://github.com/Kamilleski/personal-site/blob/master/public/icons/github.png?raw=true" height="32px" alt="Kamille Delgardo Github" /></a></li>
+          <li><a href={instagram}><img src="https://github.com/Kamilleski/personal-site/blob/master/public/icons/instagram.png?raw=true" height="32px" alt="Kamille Delgardo Instagram" /></a></li>
         </ul>
       <hr />
       </div>

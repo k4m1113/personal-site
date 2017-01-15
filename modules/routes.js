@@ -4,9 +4,9 @@ import App from './App'
 import About from './About'
 import Projects from './Projects'
 import Project from './Project'
-import Writing from './Writing'
 import Education from './Education'
 import Home from './Home'
+import School from './School'
 
 module.exports = (
   <Route path="/" component={App}>
@@ -15,7 +15,8 @@ module.exports = (
       <Route path="/projects/:id" component={Project}/>
     </Route>
     <Route path="/about" component={About}/>
-    <Route path="/writing" component={Writing}/>
-    <Route path="/education" component={Education}/>
+    <Route path="/education" component={Education}>
+      <Route path="/education/:id" component={School}/>
+    </Route>
   </Route>
 )
