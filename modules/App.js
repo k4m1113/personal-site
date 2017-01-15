@@ -1,21 +1,19 @@
 import React from 'react'
 import NavLink from './NavLink'
+import Header from './Header'
 
 export default React.createClass({
   render() {
     return (
       <div>
-        <h1>Kamille Delgardo</h1>
+        <Header />
         <ul className="nav">
-          <li><NavLink to="/" onlyActiveOnIndex>Home</NavLink></li>
-          <li><NavLink to="/about">About</NavLink></li>
-          <li><NavLink to="/projects">Projects</NavLink></li>
-          <li><NavLink to="/writing">Writing</NavLink></li>
+          <li><NavLink to="/" onlyActiveOnIndex>Home</NavLink></li>|
+          <li><NavLink to="/about">About</NavLink></li>|
+          <li><NavLink to="/projects">Projects</NavLink></li>|
+          <li><NavLink to="/writing">Writing</NavLink></li>|
           <li><NavLink to="/education">Education</NavLink></li>
         </ul>
-        <br />
-        <br />
-        <br />
         {this.props.children}
       </div>
     )
