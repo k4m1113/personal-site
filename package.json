@@ -18,14 +18,18 @@
     "url": "https://github.com/Kamilleski/personal-site"
   },
   "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.16.0",
     "compression": "^1.6.1",
+    "copy-webpack-plugin": "^4.0.1",
     "express": "^4.13.4",
+    "http-server": "^0.8.5",
     "if-env": "^1.0.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0",
-    "copy-webpack-plugin": "^4.0.1",
-    "http-server": "^0.8.5",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1"
   },
