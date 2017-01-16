@@ -1,6 +1,7 @@
 import React from 'react'
 import NavLink from './NavLink'
 import Header from './Header'
+import Footer from './Footer'
 
 export default React.createClass({
   render() {
@@ -13,6 +14,7 @@ export default React.createClass({
           <li><NavLink to="/education">Education</NavLink></li>
         </ul>
         {this.props.children}
+        <Footer />
       </div>
     )
   }

@@ -10,7 +10,7 @@ import School from './School'
 
 module.exports = (
   <Route path="/" component={App}>
-    <IndexRoute component={Home}/>
+    <IndexRoute component={About}/>
     <Route path="/projects" component={Projects}>
       <Route path="/projects/:id" component={Project}/>
     </Route>

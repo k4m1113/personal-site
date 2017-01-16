@@ -39,13 +39,12 @@ html {
 	height: 100%;
 	margin-bottom: 0.01em;
 }
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-} 
+.footer {
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  width: 30%;
+}
 .header {
   width: 290px;
   margin: auto;
