@@ -8,7 +8,10 @@ export default React.createClass({
     return (
       <div>
         <br />
-        <img src="https://lh3.googleusercontent.com/-5Kvm7cKHUUJqBga91zAQnMj1Vyu-4kPdbZ-AQC47amD=w981-h1085-no" className="portrait" alt="portrait of Kamille Delgardo"/>
+        <div className="header">
+        <a className="green-link" href="/">
+          <img src="https://lh3.googleusercontent.com/-5Kvm7cKHUUJqBga91zAQnMj1Vyu-4kPdbZ-AQC47amD=w981-h1085-no" className="portrait" alt="portrait of Kamille Delgardo"/>
+        </a>
         <h1>Kamille Delgardo</h1>
         <ul className="header-nav">
           <li><a height="32px" href="mailto:kamille@delgardo.co"><img src="http://downloadicons.net/sites/default/files/encrypted-message-icon-82764.png" height="32px" alt="securely email Kamille Delgardo" /></a></li>
@@ -16,6 +19,7 @@ export default React.createClass({
           <li><a href={github}><img src="https://github.com/Kamilleski/personal-site/blob/master/public/icons/github.png?raw=true" height="32px" alt="Kamille Delgardo Github" /></a></li>
           <li><a href={instagram}><img src="https://github.com/Kamilleski/personal-site/blob/master/public/icons/instagram.png?raw=true" height="32px" alt="Kamille Delgardo Instagram" /></a></li>
         </ul>
+        </div>
       <hr />
       </div>
 

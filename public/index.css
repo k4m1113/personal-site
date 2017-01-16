@@ -23,32 +23,55 @@
 body {
   width: 100%;
   height: 100%;
-  min-width: 720px;
-  max-width: 1080px;
   text-align: center;
-  margin: 0 auto;
+  margin: 20 auto;
   background-color: #E9EBEE
 }
 
 body {
   vertical-align: middle;
 }
+.container {
+  min-width: 720px;
+  max-width: 1080px;
+}
 
 html {
 	height: 100%;
 	margin-bottom: 0.01em;
 }
+.header {
+  width: 290px;
+  margin: auto;
+  padding: 20px;
+  background-color: var(--color-primary-1);
+}
 
 .portrait {
   width: 150px;
   border-radius: 100px;
-  border: 3px solid;
+  border: 8px solid;
   border-color: var(--color-secondary-1-2);
 }
-
-h1, h2, h3, h4 {
-  color: var(--color-primary-4);
+.portrait:hover {
+  border-color: var(--color-primary-3)
 }
+
+h1, h2, h3, h4, a {
+  color: var(--color-primary-4);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-secondary-1-3);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary-2);
+  text-decoration: none;
+}
+
 p {
   color: var(--color-secondary-1-4);
 }
@@ -151,7 +174,7 @@ p {
 }
 
 .header-nav, li a {
-  background-color: var(--color-primary-1);
+  background-color: var(--color-primary-2);
   display: inline-block;
   color: white;
   text-align: center;
