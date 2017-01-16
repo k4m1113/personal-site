@@ -4,7 +4,6 @@ export default React.createClass({
   render() {
     return (
       <div className="container">
-        <hr />
         <h2>About</h2>
         <p>
         Hi, my name is Kamille. Much like this humble website, I am a work in progress. My interests span from <a href="/education/cal">ancient Rome</a> to <a href="/projects/DIHTFAPSL">the externalities of the price of milk</a>. Having had a penchant for languages since I was a child and won any spelling bee thrown at me, though high school and college when I dabbled variously in Spanish, German, French, Danish, Latin, and Italian, I now find myself immersed in technical languages that allow me to bring these language skills (and others) to life in so many new ways.
