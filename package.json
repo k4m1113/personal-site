@@ -9,7 +9,8 @@
     "start:prod": "npm run build && node server.bundle.js",
     "build:client": "webpack",
     "build:server": "webpack --config webpack.server.config.js",
-    "build": "npm run build:client && npm run build:server"
+    "build": "npm run build:client && npm run build:server",
+    "postinstall": "npm run build"
   },
   "author": "",
   "license": "ISC",
