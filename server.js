@@ -51,6 +51,7 @@ function renderPage(appHtml) {
 
     <body>
       <div id=app></div>
+      <footer id="footer"></footer>
     </body>
     <script src="/bundle.js"></script>
     </html>
