@@ -8,7 +8,7 @@ const schools = [
     'location': 'Berkeley, CA',
     'degree': 'B.A., Classical Civilizations',
     'subjects': ['Latin', 'Scandinavian Studies'],
-    'attendanceDates': 'August 2012 to May 2015',
+    'attendanceDates': 'August 2012 to August 2015',
     'honors': ['Joost Fellowship', 'proxima cum laude', 'Golden Key International Honor Society'],
     'summary': 'I attended Cal for three years as a transfer, first studying Scandinavian Studies with a Danish language emphasis, then Classics with a Latin language emphasis. During my senior year I won the Joost Fellowship, which is awarded to one UC Berkeley classicist each year to spend five weeks in Rome learning the intricacies of Latin syntax by speaking and living Latin with the Paideia Institute.',
   },

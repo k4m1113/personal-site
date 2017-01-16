@@ -10,7 +10,7 @@ export default React.createClass({
         <h2><a href={school.url}>{school.name}</a></h2>
         <i>{school.honors.join(", ")}</i><br />
         <p>{school.location} ✼ {school.attendanceDates} ✼ {school.degree} </p>
-        <b>Studied:</b> {school.subjects.join(", ")}<br />
+        <b>Studied:</b> {school.subjects.join(", ")}<br /><br />
         {school.summary} <br />
       </div>
     )
