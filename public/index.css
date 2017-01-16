@@ -32,6 +32,8 @@ body {
   vertical-align: middle;
 }
 .container {
+  margin: auto;
+  text-align: center;
   min-width: 720px;
   max-width: 1080px;
 }
