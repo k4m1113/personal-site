@@ -8,7 +8,7 @@ export default React.createClass({
     const { id, name, url, deployment, description, type, keywords } = this.props.params
     const project = projects.filter((project) => project.id === id)[0];
     return (
-      <div>
+      <div className="container">
         <h2>{project.name}</h2>
         <p>Type: {project.type} ☞ <a href={project.deployment}>See it Live</a></p>
         <p>{project.description}</p>

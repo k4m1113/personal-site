@@ -3,7 +3,7 @@ import React from 'react'
 export default React.createClass({
   render() {
     return (
-      <div>
+      <div className="container">
         <hr />
         <h2>About</h2>
         <p>
