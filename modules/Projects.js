@@ -20,6 +20,8 @@ export default React.createClass({
         <ul className="sub-nav">
           <li><NavLink to="/projects/NMF_Tool">NMF Tool</NavLink></li>
           |
+          <li><NavLink to="/projects/OPCA">Online Public Classics Archive</NavLink></li>
+          |
           <li><NavLink to="/projects/ratchet-nail-salon">Kamille's Ratchet Nail Salon</NavLink></li>
           |
           <li><NavLink to="/projects/DIHTFAPSL">DIHTFAPSL?</NavLink></li>

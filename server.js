@@ -45,8 +45,8 @@ function renderPage(appHtml) {
       <title>Kamille Delgardo</title>
 
       <link rel=stylesheet href="/index.css">
-      <link rel="icon" href="https://raw.githubusercontent.com/Kamilleski/personal-site/master/public/icons/K.png" />
-      <link rel="shortcut icon" href="https://raw.githubusercontent.com/Kamilleski/personal-site/master/public/icons/K.png" />
+      <link rel="icon" href="https://raw.githubusercontent.com/kamillamagna/personal-site/master/public/icons/K.png" />
+      <link rel="shortcut icon" href="https://raw.githubusercontent.com/kamillamagna/personal-site/master/public/icons/K.png" />
     </head>
 
     <body>

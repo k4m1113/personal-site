@@ -13,9 +13,11 @@ export default React.createClass({
         <p>Type: {project.type} ☞ <a href={project.deployment}>See it Live</a></p>
         <p>{project.description}</p>
         <p>Technologies Used:</p>
-        <ul className="tech-icon">{
+        <ul className="tech-icon">
+        {
           project.keywords.map((keyword, i) => <Icon technology={keyword} {...keyword} />)
-        }</ul>
+        }
+        </ul>
       </div>
     )
   }

@@ -144,8 +144,8 @@ a:hover {
 .tech-icon {
   background-color: none;
   list-style-type: none;
-  margin: auto;
-  padding: 0;
+  margin: 5px;
+  padding: 5px;
   overflow: hidden;
   display: inline-block;
 }
@@ -157,9 +157,9 @@ a:hover {
 .tech-icon > li img {
   display: inline-block;
   text-align: center;
-  padding: 10px;
-  max-width: 50px;
-  max-height: 50px;
+  padding: 5px;
+  min-width: 30px;
+  min-height: 30px;
 }
 
 .header-nav {
